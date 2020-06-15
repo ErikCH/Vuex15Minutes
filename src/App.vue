@@ -15,7 +15,6 @@ export default {
     ...mapActions(["setCurrentJoke"])
   },
   mounted() {
-    // this.$store.dispatch("setCurrentJoke");
     this.setCurrentJoke();
   }
 };
